@@ -86,10 +86,14 @@ pt-5{
 }
 
 .img_banner{
-    max-width: 89%;
+    max-width: 78%;
 }
 
 .col-lg-13 {
     flex: 0 0 33.33333%;
     max-width: 16.66666666666667%;
+}
+
+.h4-style{
+    margin-bottom: 0.5%;
 }
