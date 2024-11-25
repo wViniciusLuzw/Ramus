@@ -7636,10 +7636,10 @@ button.bg-dark:focus {
   margin-top: 0.5rem !important;
 }
 
-.mr-2,
+/*.mr-2,
 .mx-2 {
   margin-right: 0.5rem !important;
-}
+}*/
 
 .mb-2,
 .my-2 {
@@ -7689,10 +7689,10 @@ button.bg-dark:focus {
   margin-right: 1.5rem !important;
 }
 
-.mb-4,
+/*.mb-4,
 .my-4 {
   margin-bottom: 1.5rem !important;
-}
+}*/
 
 .ml-4,
 .mx-4 {
@@ -7761,10 +7761,10 @@ button.bg-dark:focus {
   padding-right: 0.25rem !important;
 }
 
-.pb-1,
+/*.pb-1,
 .py-1 {
   padding-bottom: 0.25rem !important;
-}
+}*/
 
 .pl-1,
 .px-1 {
@@ -7847,10 +7847,10 @@ button.bg-dark:focus {
   padding: 3rem !important;
 }
 
-.pt-5,
+/*.pt-5,
 .py-5 {
   padding-top: 3rem !important;
-}
+}*/
 
 .pr-5,
 .px-5 {

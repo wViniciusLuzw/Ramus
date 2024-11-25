@@ -1,6 +1,11 @@
+/*
+#00171f
+#003459
+*/
+
 h1{
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    color: blueviolet;
+    color: #003459;
 }
 
 h4{
@@ -96,4 +101,37 @@ pt-5{
 
 .h4-style{
     margin-bottom: 0.5%;
+}
+
+.row1 {
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: 34.5%;
+    margin-left: 34.5%;
+}
+
+.col-lg-14 {
+    flex: 0 0 100%;
+    max-width: 50%;
+}
+
+.mb-4,
+.my-4 {
+  margin-bottom: 1rem !important;
+}
+
+.pt-5,
+.py-5 {
+  padding-top: 1.5rem !important;
+}
+
+.pb-1,
+.py-1 {
+  padding-bottom: 0.10rem !important;
+}
+
+.mr-2,
+.mx-2 {
+  margin-right: 0.5rem !important;
+  margin-left: 0.5rem !important;
 }
