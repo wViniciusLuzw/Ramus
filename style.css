@@ -135,6 +135,12 @@ pt-5{
   margin-left: 0.5rem !important;
 }
 
+.display-3 {
+    font-size: 4.5rem;
+    font-weight: 300;
+    line-height: 0.8;
+}
+
 @media (max-width: 990px) {
     .col-lg-13 {
         flex: 33.33333%;
@@ -146,6 +152,11 @@ pt-5{
         flex-wrap: wrap;
         margin-right: 20%;
         margin-left: 20%;
+    }
+
+    .col-lg-4 {
+        flex: 100%;
+        max-width: 100%;
     }
 
 }
@@ -166,6 +177,11 @@ pt-5{
 }
 
 @media (max-width: 400px) {
+    .col-lg-13 {
+        flex: 100%;
+        max-width: 100%;
+    }
+
     .col-lg-14{
         max-width: 100%;
     }
