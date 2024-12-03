@@ -7679,10 +7679,10 @@ button.bg-dark:focus {
   margin: 1.5rem !important;
 }
 
-.mt-4,
+/*.mt-4,
 .my-4 {
   margin-top: 1.5rem !important;
-}
+}*/
 
 .mr-4,
 .mx-4 {
@@ -7703,10 +7703,10 @@ button.bg-dark:focus {
   margin: 3rem !important;
 }
 
-.mt-5,
+/*.mt-5,
 .my-5 {
   margin-top: 3rem !important;
-}
+}*/
 
 .mr-5,
 .mx-5 {
@@ -7843,9 +7843,9 @@ button.bg-dark:focus {
   padding-left: 1.5rem !important;
 }
 
-.p-5 {
+/*.p-5 {
   padding: 3rem !important;
-}
+}*/
 
 /*.pt-5,
 .py-5 {
