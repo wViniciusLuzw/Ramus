@@ -4461,7 +4461,7 @@ input[type="button"].btn-block {
   color: #fff;
 }
 
-.card {
+/*.card {
   position: relative;
   display: flex;
   flex-direction: column;
@@ -4471,7 +4471,7 @@ input[type="button"].btn-block {
   background-clip: border-box;
   border: 1px solid rgba(0, 0, 0, 0.125);
   border-radius: 5px;
-}
+}*/
 
 .card > hr {
   margin-right: 0;
@@ -4534,9 +4534,9 @@ input[type="button"].btn-block {
   border-bottom: 1px solid rgba(0, 0, 0, 0.125);
 }
 
-.card-header:first-child {
+/*.card-header:first-child {
   border-radius: 4px 4px 0 0;
-}
+}*/
 
 .card-footer {
   padding: 0.75rem 1.25rem;
@@ -4544,9 +4544,9 @@ input[type="button"].btn-block {
   border-top: 1px solid rgba(0, 0, 0, 0.125);
 }
 
-.card-footer:last-child {
+/*.card-footer:last-child {
   border-radius: 0 0 4px 4px;
-}
+}*/
 
 .card-header-tabs {
   margin-right: -0.625rem;
