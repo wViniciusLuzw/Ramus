@@ -33,7 +33,7 @@ pt-5{
 }
 
 .bg-primary{
-    background-color: #6988ca;
+    background-color: #9d37d4;
 }
 
 
@@ -243,6 +243,10 @@ pt-5{
 
 .p-5 {
     padding: 3rem !important;
+}
+
+.border-item {
+    border-radius: 20px;
 }
 
 @media (max-width: 990px) {
