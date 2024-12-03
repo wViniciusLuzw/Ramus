@@ -4099,14 +4099,14 @@ input[type="button"].btn-block {
   display: block;
 }
 
-.navbar {
+/*.navbar {
   position: relative;
   display: flex;
   flex-wrap: wrap;
   align-items: center;
   justify-content: space-between;
   padding: 0.5rem 1rem;
-}
+}*/
 
 .navbar .container,
 .navbar .container-fluid, .navbar .container-sm, .navbar .container-md, .navbar .container-lg, .navbar .container-xl {
@@ -8918,10 +8918,10 @@ button.bg-dark:focus {
   .py-lg-5 {
     padding-top: 3rem !important;
   }
-  .pr-lg-5,
+  /*.pr-lg-5,
   .px-lg-5 {
     padding-right: 3rem !important;
-  }
+  }*/
   .pb-lg-5,
   .py-lg-5 {
     padding-bottom: 3rem !important;
