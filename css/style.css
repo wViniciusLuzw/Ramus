@@ -398,7 +398,7 @@ h3, .h3 {
   }
 }
 
-h4, .h4 {
+/*h4, .h4 {
   font-size: 1.5rem;
 }
 
@@ -406,7 +406,7 @@ h4, .h4 {
   h4, .h4 {
     font-size: calc(1.275rem + 0.3vw) ;
   }
-}
+}*/
 
 h5, .h5 {
   font-size: 1.25rem;
@@ -2666,7 +2666,7 @@ fieldset:disabled a.btn {
   box-shadow: 0 0 0 0.2rem rgba(82, 88, 93, 0.5);
 }
 
-.btn-outline-primary {
+/*.btn-outline-primary {
   color: #17a2b8;
   border-color: #17a2b8;
 }
@@ -2675,7 +2675,7 @@ fieldset:disabled a.btn {
   color: #fff;
   background-color: #17a2b8;
   border-color: #17a2b8;
-}
+}*/
 
 .btn-outline-primary:focus, .btn-outline-primary.focus {
   box-shadow: 0 0 0 0.2rem rgba(23, 162, 184, 0.5);
@@ -4385,12 +4385,12 @@ input[type="button"].btn-block {
   color: rgba(0, 0, 0, 0.3);
 }
 
-.navbar-light .navbar-nav .show > .nav-link,
+/*.navbar-light .navbar-nav .show > .nav-link,
 .navbar-light .navbar-nav .active > .nav-link,
 .navbar-light .navbar-nav .nav-link.show,
 .navbar-light .navbar-nav .nav-link.active {
   color: rgba(0, 0, 0, 0.9);
-}
+}*/
 
 .navbar-light .navbar-toggler {
   color: rgba(0, 0, 0, 0.5);
@@ -6416,7 +6416,7 @@ button.bg-danger:focus {
 }
 
 .bg-light {
-  background-color: #f8f9fa !important;
+  background-color: #a9bcc4 !important;
 }
 
 a.bg-light:hover, a.bg-light:focus,
