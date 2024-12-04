@@ -111,8 +111,6 @@ pt-5{
 .row {
     display: flex;
     flex-wrap: wrap;
-    margin-right: -15px;
-    margin-left: -15px;
 }
 
 .col-lg-4 {
@@ -151,7 +149,7 @@ pt-5{
 
 .pt-5,
 .py-5 {
-  padding-top: 1rem !important;
+  padding-top: 1.5rem !important;
 }
 
 .pb-1,
@@ -163,12 +161,6 @@ pt-5{
 .mx-2 {
   margin-right: 0.5rem !important;
   margin-left: 0.5rem !important;
-}
-
-.display-3 {
-    font-size: 4.5rem;
-    font-weight: 300;
-    line-height: 0.8;
 }
 
 .mb-5,
@@ -305,7 +297,13 @@ pt-5{
     background-clip: padding-box;
     /*border: 1px solid rgba(0, 0, 0, 0.15);*/
     border-radius: 5px;
+}
+
+.display-3 {
+    font-weight: 300;
+    font-size: calc(1.575rem + 3.9vw) ;
   }
+
 
 h4, .h4 {
     font-size: 1.5rem;
