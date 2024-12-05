@@ -6525,7 +6525,7 @@ button.bg-dark:focus {
 }
 
 .rounded {
-  border-radius: 5px !important;
+  border-radius: 10px !important;
 }
 
 .rounded-top {
@@ -7658,7 +7658,7 @@ button.bg-dark:focus {
 
 .mt-3,
 .my-3 {
-  margin-top: 1rem !important;
+  margin-top: 0.25rem !important;
 }
 
 .mr-3,

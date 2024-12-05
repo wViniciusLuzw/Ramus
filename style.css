@@ -106,6 +106,18 @@ pt-5{
     border-color: #00394F;
 }
 
+.btn-ter {
+    color: #fff;
+    background-color: #a90d0d;
+    border-color: #a90d0d;
+}
+
+.btn-ter:hover {
+    color: #fff;
+    background-color: #d31717;
+    border-color: #d31717;
+}
+
 
 /*Divisão dos 6 Cards**/
 .row {
