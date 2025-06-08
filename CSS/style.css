@@ -101,8 +101,6 @@ input {
     transform: translate(-50%, -50%);
     /*Personalização*/
     width: 30%;
-    background-color: #858585;
-    border-radius: 15px;
 }
 
 .modal-contend {
@@ -110,7 +108,9 @@ input {
     flex-wrap: wrap;
     align-items: center;
     padding: 18px;
-
+    border-radius: 15px;
+    background-color: #858585;
+    
     position: relative;
     width: 100%;
 }
