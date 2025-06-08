@@ -13,7 +13,7 @@
 }
 
 body {
-    background-image: url('/IMG/ramus.png');
+    background-image: url('IMG/ramus.png');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: right;
