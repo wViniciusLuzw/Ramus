@@ -13,52 +13,76 @@
 }
 
 body {
-    background-image: url('IMG/ramus.png');
+    /*background-image: url('../imagens/INRamos.png');
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: right;
+    background-position: right;*/
 }
 
-.form{
-    padding: 1%;
+form{
+    padding: 10px;
     background-color: blueviolet;
-    width: 25%;
+    width: fit-content;
+    border-radius: 8px;
 }
 
 h1 {
     font-size: 1.5rem;
-    color: #fff;
+    color: #000;
+    margin-left: 5%;
 }
 
-.boxInput {
+.boxText {
     background-color: #fff;
     border-radius: 15px;
     display: flex;
     align-items: center;
-    width: 100%;
+    width: fit-content;
     margin-bottom: 1.5%;
-    gap: 5px;
 }
 
-.boxInput > input[type=text], input[type=submit] {
-    width: 90%;
+.boxText > i {
+    margin-left: 3%;
+    margin-right: 2%;
+}
+
+.boxText > input[type=text] {
     border: none;
-    height: 3vh;
+    background-color: transparent;
+    width: 100%;
 }
 
-/*.boxInput > input[type=text]::placeholder {
+.boxSubmit {
+    display: flex;
+    align-items: center;
+    margin-top: 1.5%;
+    gap: 15px;
+}
+
+.boxSubmit > h5 {
+    font-weight: 500;
+    font-size: 0.8rem;
+}
+
+.boxSubmit > h5 > a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.boxSubmit > h5 > a:hover {
+    text-decoration: underline;
+}
+
+input[type=submit] {
+    border: none;
+    border-radius: 15px;
+    width: 40%;
+}
+
+input {
+    padding: 3px;
+}
+
+/*.boxText > input[type=text]::placeholder {
     color: #fff;
 }*/
-
-.boxInput > input[type=text] {
-    background-color: transparent;
-}
-
-.boxInput > input[type=text] {
-    background-color: transparent;
-}
-
-.boxInput > i {
-    width: 5%;
-    margin-left: 2%;
-}
