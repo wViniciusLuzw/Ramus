@@ -19,10 +19,34 @@
                 </div>
                 <div class="boxSubmit">
                     <input type="submit"></input>
-                    <h5><a href="">Qual é minha senha?</a></h5>
+                    <h5><a id="myBnt">Qual é minha senha?</a></h5>
                 </div>
             </form>
         </div>
     </div>
+
+    <!--Modal-->
+    <div class="modal" id="meuModal">
+        <div class="modal-contend">
+            <span class="fechar">x</span>
+            <p>Num sei</p>
+        </div>
+    </div>
 </body>
+<script>
+    var modal = document.getElementById("meuModal");
+
+    var bnt = document.getElementById("myBnt");
+
+    var span = document.getElementsByClassName("fechar")[0];
+
+    bnt.onclick = function() {
+        modal.style.display = "block";
+    }
+
+    span.onclick = function() {
+        modal.style.display = "none";
+    }
+
+</script>
 </html>

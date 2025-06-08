@@ -5,19 +5,21 @@
     font-family: "Poppins", sans-serif;
 }
 
-.container{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-}
-
 body {
+    height: 100vh;
     /*background-image: url('../imagens/INRamos.png');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: right;*/
 }
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
 
 form{
     padding: 10px;
@@ -86,3 +88,10 @@ input {
 /*.boxText > input[type=text]::placeholder {
     color: #fff;
 }*/
+
+/*Modal*/
+.modal {
+    position: absolute;
+    top: 1px;
+    display: none;
+}
