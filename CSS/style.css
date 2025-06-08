@@ -89,26 +89,28 @@ input {
 /*Modal*/
 .modal {
     display: none;
-    /*Centralizar acima do formulário*/
-    position: fixed;
-    z-index: 1;
-    left: 50%;
-    top: 25%;
-    transform: translate(-50%, -50%);
+    /*Ocupando acima do nosso body*/
+    width: 100%;
+    height: 100%;
+    /*Definindo Posição*/
+    position: absolute;
+    top: 0;
+
     /*Personalização*/
-    width: 30%;
+    background-color: rgba(0, 0, 0, 0.4);
+
 }
 
 .modal-contend {
     display: flex;
     flex-wrap: wrap;
     align-items: center;
+
     padding: 18px;
     border-radius: 15px;
-    background-color: #858585;
-    
+    background-color: #e91d1d;
     position: relative;
-    width: 100%;
+    width: 25%;
 }
 
 .modal-contend > i {
@@ -116,7 +118,7 @@ input {
     right: 8px;
     top: 12%;
     color: #fff;
-
+    cursor: pointer;
     /*background-color: #28d62b;*/
     /*border-radius: 5px;*/
 }
