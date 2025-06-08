@@ -100,7 +100,7 @@ input {
     top: 25%;
     transform: translate(-50%, -50%);
     /*Personalização*/
-    width: 25%;
+    width: 30%;
     background-color: #858585;
     border-radius: 15px;
 }
@@ -123,4 +123,14 @@ input {
 
     /*background-color: #28d62b;*/
     /*border-radius: 5px;*/
+}
+
+.modal-contend > p {
+    font-size: 1rem;
+}
+
+@media screen and (max-width: 630px) {
+    .modal {
+        width: 90%;
+    }
 }
