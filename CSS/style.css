@@ -78,6 +78,7 @@ h1 {
 input[type=submit] {
     border: none;
     border-radius: 15px;
+    padding: 3px;
     width: 40%;
 }
 
@@ -91,7 +92,32 @@ input {
 
 /*Modal*/
 .modal {
+    display: block;
+    /*Centralizar acima do formulário*/
+    position: fixed;
+    z-index: 1;
+    left: 50%;
+    top: 25%;
+    transform: translate(-50%, -50%);
+    /*Personalização*/
+    width: 25%;
+    padding: 20px;
+    background-color: #858585;
+    border-radius: 15px;
+}
+
+.modal-contend {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    width: 100%;
+}
+
+.modal-contend > i {
     position: absolute;
-    top: 1px;
-    display: none;
+    color: #fff;
+    left: 88%;
+    top: 9%;
+    /*background-color: #28d62b;*/
+    /*border-radius: 5px;*/
 }
