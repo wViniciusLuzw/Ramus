@@ -40,7 +40,7 @@ h1 {
     display: flex;
     align-items: center;
     width: fit-content;
-    margin-bottom: 1.5%;
+    margin-bottom: 2%;
 }
 
 .boxText > i {
@@ -92,7 +92,7 @@ input {
 
 /*Modal*/
 .modal {
-    display: block;
+    display: none;
     /*Centralizar acima do formulário*/
     position: fixed;
     z-index: 1;
@@ -101,7 +101,6 @@ input {
     transform: translate(-50%, -50%);
     /*Personalização*/
     width: 25%;
-    padding: 20px;
     background-color: #858585;
     border-radius: 15px;
 }
@@ -110,14 +109,18 @@ input {
     display: flex;
     flex-wrap: wrap;
     align-items: center;
+    padding: 18px;
+
+    position: relative;
     width: 100%;
 }
 
 .modal-contend > i {
     position: absolute;
+    right: 8px;
+    top: 12%;
     color: #fff;
-    left: 88%;
-    top: 9%;
+
     /*background-color: #28d62b;*/
     /*border-radius: 5px;*/
 }
